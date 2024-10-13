@@ -1,3 +1,5 @@
+# III.A. The Game - EmojiHeroVR
+
 EmojiHeroVR's source code is available in the following repository:
 https://github.com/MirCore/EmojiHeroVR.
 We tagged the exact version, we used during our study, with `study-setup`:
