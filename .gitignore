@@ -1,7 +1,7 @@
 venv/
 .idea/
 *.keras
-
+*.pth
 
 # Following are general python ignores from https://github.com/github/gitignore/blob/main/Python.gitignore
 

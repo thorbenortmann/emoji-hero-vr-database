@@ -1,4 +1,4 @@
-# Training, Validation and Test Split
+# VI.A. Training, Validation and Test Split
 
 At the beginning of this step, we have labels for 1,921 images (see [labels.csv](label.csv)).
 These labels resulted from the agreement between three annotators,
