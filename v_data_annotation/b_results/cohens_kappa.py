@@ -89,7 +89,7 @@ def compute_confusion_matrix(df, label_cols):
 
 if __name__ == '__main__':
     # Load the dataset
-    FILE_PATH = r'E:\mydata\emoijhero\labels\for-labeling\labels-master-table-analysis_irr.csv'
+    FILE_PATH = r'labels-master-table-analysis_irr.csv'
     ONLY_INCLUDED = False
     df = pd.read_csv(FILE_PATH, delimiter=';')
 
@@ -133,24 +133,36 @@ if __name__ == '__main__':
 
     print(f"\nFleiss' Kappa Score: {fleiss_kappa_score:.4f}")
 
-    '''
-    Output:
-        Accuracy Scores:
-        Labeler 1: 0.6687
-        Labeler 2: 0.7413
-        Labeler 3: 0.7459
-        Average: 0.7187
-        
-        Cohen's Kappa Scores:
-        Labeler 1: 0.6135
-        Labeler 2: 0.6982
-        Labeler 3: 0.7036
-        Average: 0.6718
-        
-        Labeler 1 vs Labeler 2: 0.6732
-        Labeler 1 vs Labeler 3: 0.6333
-        Labeler 2 vs Labeler 3: 0.7282
-        Average: 0.6782
-        
-        Fleiss' Kappa Score: 0.6776
-    '''
+# OUTPUT
+#               precision    recall  f1-score   support
+#
+#        Anger     0.7237    0.5144    0.6014      1110
+#      Disgust     0.7084    0.5712    0.6324      1110
+#         Fear     0.6364    0.5423    0.5856      1110
+#    Happiness     0.8880    0.9640    0.9244      1110
+#      Neutral     0.6616    0.9405    0.7768      1110
+#      Sadness     0.6295    0.6721    0.6501      1110
+#     Surprise     0.7824    0.8261    0.8037      1110
+#
+#     accuracy                         0.7187      7770
+#    macro avg     0.7186    0.7187    0.7106      7770
+# weighted avg     0.7186    0.7187    0.7106      7770
+#
+# Accuracy Scores:
+# Labeler 1: 0.6687
+# Labeler 2: 0.7413
+# Labeler 3: 0.7459
+# Average: 0.7187
+#
+# Cohen's Kappa Scores:
+# Labeler 1: 0.6135
+# Labeler 2: 0.6982
+# Labeler 3: 0.7036
+# Average: 0.6718
+#
+# Labeler 1 vs Labeler 2: 0.6732
+# Labeler 1 vs Labeler 3: 0.6333
+# Labeler 2 vs Labeler 3: 0.7282
+# Average: 0.6782
+#
+# Fleiss' Kappa Score: 0.6776
