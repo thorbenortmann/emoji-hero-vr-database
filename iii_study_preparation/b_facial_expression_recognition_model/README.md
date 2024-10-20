@@ -1,5 +1,12 @@
 # III.B. Facial Expression Recognition Model
 
+## Artificial Occlusion
+
+We simulated the facial occlusion caused by Virtual Reality Headset by adding black rectangles to images of existing
+Facial Expression Recognition databases. For details, see: [occlude_images.py](./occlude_images.py).
+
+## Model Architecture and Training
+
 To train the models described in subsection `III.B. Facial Expression Recognition Model`,
 we relied on the Poster++ model architecture.
 Accompanying their publication

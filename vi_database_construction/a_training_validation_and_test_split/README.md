@@ -8,7 +8,7 @@ Also, we have the facial recordings in a directory structure like this:
 ```
 facial-recordings
 ├── <participant-id>
-    ├── <level-id>
+    ├── Level <level-id>
         ├── <emoji-id>-<emotion-name>
             ├── <timestamp>.png
             ├── <timestamp>-1.png

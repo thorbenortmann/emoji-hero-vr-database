@@ -1,0 +1,9 @@
+We used MediaPipe(version 0.10.15)'s 'BlazeFace (short-range)' for face detection in the '1_crop_images2face.py'
+script of this directory.
+For easier usage, we also checked it into this repository.
+The model was developed by 'Valentin Bazarevsky' from 'Google',
+and is licensed under the 'Apache License, Version 2.0'
+according to it's model card
+(https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20(Short%20Range).pdf)
+in MediaPipe's documentation
+(https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector/index#models).
