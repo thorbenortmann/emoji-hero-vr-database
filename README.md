@@ -15,4 +15,5 @@ Related repositories are:
 
 ## Apply for Access to EmoHeVRDB
 
-Information on how to apply for access to the EmojiHeroVR Database will follow soon.
+Please contact thorben.ortmann@haw-hamburg.de for information on how to apply for access to the EmojiHeroVR Database.
+More details will be published here soon.
