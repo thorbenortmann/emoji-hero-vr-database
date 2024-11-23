@@ -1,4 +1,4 @@
-We used MediaPipe(version 0.10.15)'s 'BlazeFace (short-range)' for face detection in the '1_crop_images2face.py'
+We used MediaPipe(version 0.10.15)'s 'BlazeFace (short-range)' model for face detection in the 'occlude_images.py'
 script of this directory.
 For easier usage, we also checked it into this repository.
 The model was developed by 'Valentin Bazarevsky' from 'Google',

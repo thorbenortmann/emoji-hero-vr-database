@@ -6,3 +6,4 @@ The artificial occlusions described in this subsection were done similarly to su
 The preparation of `EmoHeVRDB` is described in directory
 [vi_database_construction/b_construction_and_statistics](../../vi_database_construction/b_construction_and_statistics)
 of this repository.
+Effectively, we used `EmoHeVRDB-SI` (see [1. EmoHeVRDB-SI](../../README.md#1-emohevrdb-si)) for our experiments.
