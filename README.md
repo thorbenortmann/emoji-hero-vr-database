@@ -24,7 +24,7 @@ Provide a link to your academic profile (e.g., institutional webpage or Google S
 researcher.
 
 **2. Requested Subsets**:
-Specify which subset of EmoHeVRDB you wish to access:
+Specify which subsets of EmoHeVRDB you wish to access:
 
 - [ ] EmoHeVRDB-SI (one 224x224 image per label)
 - [ ] EmoHeVRDB-SFEA (one 63x1 vector per label)
@@ -47,7 +47,7 @@ We use some placeholders to describe EmoHeVRDB's structure. These have the follo
 
 - `<set-name>` is one of `training_set`, `validation_set`, `test_set`.
 - `<emotion-name>` ist one of `Anger`, `Disgust`, `Fear`, `Happiness`, `Neutral`, `Sadness` and `Surprise`.
-- `<timestamp>` is a Unix timestamp specifying the number of milliseconds since 1. January 1970, 00:00:00:00 UTC.
+- `<timestamp>` is a Unix timestamp specifying the number of milliseconds since January 1, 1970, midnight UTC.
 - `<participant-id>` is a whole number between `1` and `37`.
 - `<level-id>` is a whole number between `1` and `4`.
 - `<emoji-id>` is a whole number between `0` and `8` for `<level-id>=1`, between `0` and `11` for `<level-id>=2`,
@@ -120,7 +120,7 @@ emoji-hero-vr-db-dynamic-image-sequences
 ```
 
 Each sequence in EmoHeVRDB-DI was constructed around one image from EmoHeVRDB-SI.
-`<sequence-id>` specifies the corresponding image file from EmoHeVRDB-SI by using its name except the file extension.
+`<sequence-id>` specifies the corresponding image file from EmoHeVRDB-SI by using its name without the file extension.
 
 
 ### 4. EmoHeVRDB-DFEA
