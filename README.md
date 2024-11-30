@@ -66,7 +66,7 @@ with a resolution of 224x224 pixels in jpg format.
 EmoHeVRDB-SI has the following directory structure:
 
 ```
-emoji-hero-vr-db-static-images
+emoji-hero-vr-db-si
 ├── <set-name>
 ... ├── <emotion-name>
     ... ├── <timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-<camera-index>.jpg`
@@ -82,7 +82,7 @@ each containing a 63-dimensional vector of floating pointing numbers between 0 a
 EmoHeVRDB-SFEA has the following directory structure:
 
 ```
-emoji-hero-vr-db-static-facial-expression-activations
+emoji-hero-vr-db-sfea
 ├── <set-name>
 ... ├── <emotion-name>
     ... ├── <timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`
@@ -93,13 +93,13 @@ emoji-hero-vr-db-static-facial-expression-activations
 Each JSON file corresponds to exactly one central-view image and one side-view image from EmoHeVRDB-SI.
 You can identify the corresponding images by using the file names:
 
-`emoji-hero-vr-db-static-facial-expression-activations/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`  
+`emoji-hero-vr-db-sfea/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`  
 
 corresponds to  
 
-`emoji-hero-vr-db-static-images/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-0.jpg`  
+`emoji-hero-vr-db-si/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-0.jpg`  
 and  
-`emoji-hero-vr-db-static-images/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
+`emoji-hero-vr-db-si/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
 
 ### 3. EmoHeVRDB-DI
 
@@ -111,7 +111,7 @@ Each sequence consists of exactly 30 jpg files with a resolution of 224x224 pixe
 EmoHeVRDB-DI has the following directory structure:
 
 ```
-emoji-hero-vr-db-dynamic-image-sequences
+emoji-hero-vr-db-di
 ├── <set-name>
 ... ├── <emotion-name>
     ... ├── <sequence-id>
@@ -133,7 +133,7 @@ Each JSON file contains a 63-dimensional vector of floating pointing numbers bet
 EmoHeVRDB-DFEA has the following directory structure:
 
 ```
-emoji-hero-vr-db-dynamic-facial-expression-activation-sequences
+emoji-hero-vr-db-dfea
 ├── <set-name>
 ... ├── <emotion-name>
     ... ├── <sequence-id>
@@ -143,10 +143,10 @@ emoji-hero-vr-db-dynamic-facial-expression-activation-sequences
 Each JSON file corresponds to exactly one central-view image and one side-view image from EmoHeVRDB-DI.
 You can identify the corresponding images by using the file names:
 
-`emoji-hero-vr-db-dynamic-facial-expression-activation-sequences/<set-name>/<emotion-name>/<sequence-id>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`
+`emoji-hero-vr-db-dfea/<set-name>/<emotion-name>/<sequence-id>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`
 
 corresponds to
 
-`emoji-hero-vr-db-dynamic-image-sequences/<set-name>/<emotion-name>/<sequence-id>-0/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-0.jpg`  
+`emoji-hero-vr-db-di/<set-name>/<emotion-name>/<sequence-id>-0/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-0.jpg`  
 and  
-`emoji-hero-vr-db-dynamic-image-sequences/<set-name>/<emotion-name>/<sequence-id>-1/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
+`emoji-hero-vr-db-di/<set-name>/<emotion-name>/<sequence-id>-1/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
