@@ -14,6 +14,7 @@ Related repositories are:
 - https://github.com/thorbenortmann/facial-expression-labeling-service
 
 ## Request Access to EmoHeVRDB
+**Please note that the End User License Agreement for EmoHeVRDB is still under review by our university, and we will only be able to provide access once the review has been completed.**
 
 To request access to EmoHeVRDB, please email `thorben.ortmann@haw-hamburg.de`
 with the subject: `EmoHeVRDB Access Request.`
