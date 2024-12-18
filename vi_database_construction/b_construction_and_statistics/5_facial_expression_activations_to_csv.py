@@ -44,8 +44,8 @@ def save_to_csv(feas, labels, timestamps, file_ids, output_file):
 
 
 if __name__ == '__main__':
-    base_directory = Path(r'/media/thor/PortableSSD/mydata/emojihero/dataset/emoji-hero-vr-db-facial-expression-activations')
-    output_dir = base_directory.parent / (base_directory.name + '-csv')
+    base_directory = Path(r'/media/thor/PortableSSD/emoji-hero-vr-db/dataset/emoji-hero-vr-db/emoji-hero-vr-db-sfea')
+    output_dir = base_directory.parent / (base_directory.name + '-as-csv')
     output_dir.mkdir(exist_ok=True)
 
     for subset_dir in base_directory.iterdir():
