@@ -41,6 +41,8 @@ def save_to_csv(feas, labels, timestamps, sequence_ids, output_file):
     df.insert(1, 'timestamp', timestamps)
     df['Label'] = labels
 
+    df.sort_values(by=['sequence_id', 'timestamp'], inplace=True)
+
     df.to_csv(output_file, index=False)
     print(f'Data saved to {output_file}')
 
