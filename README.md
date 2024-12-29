@@ -102,6 +102,12 @@ corresponds to
 and  
 `emoji-hero-vr-db-si/<set-name>/<emotion-name>/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
 
+**Note** that EmoHeVRDB-SFEA is also available in csv format.
+The conversion script
+([5_facial_expression_activations_to_csv.py](vi_database_construction/b_construction_and_statistics/5_facial_expression_activations_to_csv.py))
+also includes the information which measured FEA value corresponds to which facial expression
+(e.g. `BrowLowererL` or `JawDrop`).
+
 ### 3. EmoHeVRDB-DI
 
 EmoHeVRDB-DI (EmoHeVRDB-dynamic-image-sequences)
@@ -151,3 +157,9 @@ corresponds to
 `emoji-hero-vr-db-di/<set-name>/<emotion-name>/<sequence-id>-0/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-0.jpg`  
 and  
 `emoji-hero-vr-db-di/<set-name>/<emotion-name>/<sequence-id>-1/<timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>-1.jpg`.
+
+**Note** that EmoHeVRDB-DFEA is also available in csv format.
+The conversion script
+([5_facial_expression_activation_sequences_to_csv.py](vi_database_construction/b_construction_and_statistics/5_facial_expression_activation_sequences_to_csv.py))
+also includes the information which measured FEA value corresponds to which facial expression
+(e.g. `BrowLowererL` or `JawDrop`) .
