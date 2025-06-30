@@ -1,9 +1,18 @@
 # EmojiHeroVR Database (EmoHeVRDB)
 
-This repository provides all accompanying information for the paper
-[EmojiHeroVR: A Study on Facial Expression Recognition under Partial Occlusion from Head-Mounted Displays](https://doi.org/10.48550/arXiv.2410.03331)
-which will be published in IEEE Explore as part of the proceedings of the
-[12th International Conference on Affective Computing and Intelligent Interaction (ACII 2024)](https://acii-conf.net/2024/).
+This repository provides all accompanying information for the following paper.
+Please cite it when using the EmoHeVRDB.
+```
+@INPROCEEDINGS{10970356,
+  author={Ortmann, Thorben and Wang, Qi and Putzar, Larissa},
+  booktitle={2024 12th International Conference on Affective Computing and Intelligent Interaction (ACII)}, 
+  title={EmojiHeroVR: A Study on Facial Expression Recognition Under Partial Occlusion from Head-Mounted Displays}, 
+  year={2024},
+  pages={80-88},
+  doi={10.1109/ACII63134.2024.00014}
+  }
+```
+
 This repository is structured mirroring the paper's structure.
 
 Related repositories are:
@@ -12,9 +21,11 @@ Related repositories are:
 - https://github.com/thorbenortmann/POSTER_V2
 - https://github.com/thorbenortmann/facial-expression-recognition-microservice
 - https://github.com/thorbenortmann/facial-expression-labeling-service
+- https://github.com/thorbenortmann/emohevrdb-sfer (subsequent paper)
+
+### Please note that the End User License Agreement for EmoHeVRDB is still under review by our university, and we will only be able to provide access once the review has been completed.
 
 ## Request Access to EmoHeVRDB
-**Please note that the End User License Agreement for EmoHeVRDB is still under review by our university, and we will only be able to provide access once the review has been completed.**
 
 To request access to EmoHeVRDB, please email `thorben.ortmann@haw-hamburg.de`
 with the subject: `EmoHeVRDB Access Request.`
@@ -90,7 +101,6 @@ emoji-hero-vr-db-sfea
         ...
 ```
 
-
 Each JSON file corresponds to exactly one central-view image and one side-view image from EmoHeVRDB-SI.
 You can identify the corresponding images by using the file names:
 
@@ -147,6 +157,7 @@ emoji-hero-vr-db-dfea
         ... ├── <timestamp>-<set-id>-<participant-id>-<level-id>-<emoji-id>-<emotion-id>.json`
             ...
 ```
+
 Each JSON file corresponds to exactly one central-view image and one side-view image from EmoHeVRDB-DI.
 You can identify the corresponding images by using the file names:
 
