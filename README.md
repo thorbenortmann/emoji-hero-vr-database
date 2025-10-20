@@ -23,8 +23,6 @@ Related repositories are:
 - https://github.com/thorbenortmann/facial-expression-labeling-service
 - https://github.com/thorbenortmann/emohevrdb-sfer (subsequent paper)
 
-### Please note that the End User License Agreement for EmoHeVRDB is still under review by our university, and we will only be able to provide access once the review has been completed.
-
 ## Request Access to EmoHeVRDB
 
 To request access to EmoHeVRDB, please email `thorben.ortmann@haw-hamburg.de`
@@ -51,6 +49,8 @@ Please note that access is provided for research purposes only.
 
 If your request is valid,
 we will send you an End User License Agreement (EULA) detailing the terms of use for EmoHeVRDB.
+Please note that the Licensee must be employed or otherwise appointed at a research institution.
+Students can be listed as co-researchers.
 After receiving the signed EULA, we will provide a link to download the requested data and a password to decrypt it.
 
 ## EmoHeVRDB Subsets and Structure
