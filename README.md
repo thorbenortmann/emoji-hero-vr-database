@@ -26,7 +26,7 @@ Related repositories are:
 ## Request Access to EmoHeVRDB
 
 To request access to EmoHeVRDB, please email `thorben.ortmann@haw-hamburg.de`
-with the subject: `EmoHeVRDB Access Request.`
+with the subject: `EmoHeVRDB Access Request`.
 In your email, please include the following information:
 
 **1. Confirmation of Identity**:
